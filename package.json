@@ -1,0 +1,21 @@
+{
+  "name": "@webergency-utils/cache",
+  "version": "1.0.0",
+  "description": "A high-performance memory-efficient dual-heap cache with frequency scoring",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@liqd-js/heap": "^1.1.4",
+    "@liqd-js/queue": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "vitest": "^4.1.6"
+  }
+}
